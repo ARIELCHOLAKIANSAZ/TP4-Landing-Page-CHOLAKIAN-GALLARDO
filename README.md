@@ -4,4 +4,4 @@ Para probar este proyecto, ejecutar en la terminal abierta en la carpeta:
 npm install
 npm run dev
 ```
-Y abrir en el navegador el puerto que indique. Normalmente http://localhost:5173/
+Y abrir en el navegador el puerto que indique
