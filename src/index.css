@@ -3,52 +3,79 @@ body{
   padding: 0;
 }
 header{
+  color: white;
   height: 100vh;
-  margin: 0;
-  padding: 0;
-  background-color: red;
+  width: auto;
+  background-color: black;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
 }
-#left-sec{
+
+header h1{
+  font-size: 300%;
+  line-height: 25%;
+}
+header h2{
+  font-size: 200%;
+}
+
+.info-sec{
   height: calc(100% - 80px);
   width: calc(50% - 40px);
+  margin-right: 40px;
   margin-left: 40px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
-#right-sec{
-  height: calc(100% - 80px);
-  width: calc(50%-40px);
-  margin-right: 40px;
-}
-
-#right-sec img{
+.info-sec img{
+  border-radius: 2em;
   height: 100%;
   width: 100%;
 }
 
 main{
   height: 160vh;
+  width: auto;
 }
 
-.info-sec{
+main h3{
+  font-size: 200%;
+}
+
+main p{
+  font-size: 150%;
+}
+
+main .info{
   height: 50%;
-  width: 100%;
+  width: auto;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  align-items: center ;
+}
+
+main .info .info-sec{
+  align-items: center;
+}
+
+#link-button{
+  background-color: darkslateblue;
+  color: whitesmoke;
+  font-size: 150%;
+  height: 75px;
+  width: 300px;
+  border-radius: 2em;
+  display: flex;
+  justify-content: center;
   align-items: center;
 }
 
 #normal{
   flex-direction: row;
-  background-color: blue;
 }
 #reverse{
   flex-direction: row-reverse;
-  background-color: yellow;
 }
