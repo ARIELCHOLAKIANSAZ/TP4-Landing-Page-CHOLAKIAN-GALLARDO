@@ -3,10 +3,12 @@ body{
   padding: 0;
 }
 header{
+  background-image: url(/assets/markiplier-burning-markiplier.gif);
+  background-size: cover;
+  background-position: center center;
   color: white;
   height: 100vh;
   width: auto;
-  background-color: black;
   display: flex;
   justify-content: space-between;
   align-items: center;
