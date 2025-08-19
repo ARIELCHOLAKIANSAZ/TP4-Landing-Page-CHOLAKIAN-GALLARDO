@@ -33,9 +33,15 @@ header h2{
 }
 
 .info-sec img{
-  border-radius: 2em;
   height: 100%;
-  width: 100%;
+  width: 100% ;
+  object-fit: contain;
+  border-radius: 2em;
+}
+
+.info-sec #image{
+  justify-content: center;
+  align-items: center;
 }
 
 main{
