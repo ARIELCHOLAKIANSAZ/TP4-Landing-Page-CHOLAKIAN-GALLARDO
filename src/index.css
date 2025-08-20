@@ -21,6 +21,10 @@ header h1{
 header h2{
   font-size: 200%;
 }
+header #logo{
+  height: 200px;
+  width: 400px;
+}
 
 .info-sec{
   height: calc(100% - 80px);
