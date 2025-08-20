@@ -22,8 +22,8 @@ header h2{
   font-size: 200%;
 }
 header #logo{
-  height: 200px;
-  width: 400px;
+  height: 300px;
+  width: 500px;
 }
 
 .info-sec{
@@ -36,7 +36,7 @@ header #logo{
   justify-content: space-between;
 }
 
-.info-sec img{
+img{
   height: 100%;
   width: 100% ;
   object-fit: contain;
@@ -45,7 +45,17 @@ header #logo{
 
 .info-sec #image{
   justify-content: center;
-  align-items: center;
+  width: 50%;
+}
+
+header #image{
+  align-items: flex-end;
+  justify-content: end;
+  margin-right: 0;
+}
+
+header #image img{
+  object-position: right  ;
 }
 
 main{
@@ -74,8 +84,9 @@ main .info .info-sec{
 }
 
 #link-button{
-  background-color: darkslateblue;
+  background-color: #483d8b;
   color: whitesmoke;
+  text-decoration: none;
   font-size: 150%;
   height: 75px;
   width: 300px;
