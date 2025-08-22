@@ -2,6 +2,12 @@ body{
   margin: 0;
   padding: 0;
 }
+
+h2, h3, a, img, p{
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
 header{
   background-image: url(/assets/markiplier-burning-markiplier.gif);
   background-size: cover;
@@ -15,52 +21,41 @@ header{
   align-items: center;
 }
 
-header h1{
-  font-size: 300%;
-  line-height: 25%;
-}
 header h2{
   font-size: 200%;
 }
 header #logo{
   height: 70%;
-  width: 80%;
+  width: 72.5%;
 }
 
 .info-sec{
-  height: calc(100% - 80px);
-  width: calc(50% - 40px);
-  margin-right: 40px;
-  margin-left: 40px;
+  height: 100%;
+  width: 50%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
 img{
-  height: 100%;
-  width: 100% ;
+  height: calc(100% - 80px);
+  width: calc(100% - 80px);
   object-fit: contain;
   border-radius: 2em;
+  margin-top: 40px;
 }
 
-.info-sec #image{
-  justify-content: center;
-  width: 50%;
+#image{
+  align-items: end;
 }
 
-header #image{
-  align-items: flex-end;
-  justify-content: end;
+#tromprun{
+  object-position: right;
   margin-right: 0;
 }
 
-header #image img{
-  object-position: right  ;
-}
-
 main{
-  height: 160vh;
+  height: 200vh;
   width: auto;
 }
 
@@ -85,7 +80,7 @@ main .info .info-sec{
   align-items: center;
 }
 
-#link-button{
+.link-button{
   background-color: #483d8b;
   color: whitesmoke;
   text-decoration: none;
@@ -98,6 +93,8 @@ main .info .info-sec{
   display: flex;
   justify-content: center;
   align-items: center;
+  outline: 7.5px solid black;
+  margin-bottom: 40px;
 }
 
 #normal{
