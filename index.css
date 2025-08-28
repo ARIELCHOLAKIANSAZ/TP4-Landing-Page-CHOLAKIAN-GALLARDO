@@ -26,6 +26,13 @@
     align-items: center;
   }
   
+  #logoslogan{
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
   header h2{
     font-size: 200%;
   }
@@ -60,7 +67,7 @@
   }
   
   main{
-    height: 200vh;
+    height: 130vh;
     width: auto;
   }
   
@@ -94,7 +101,6 @@
     min-width: 300px;
     width: 300px;
     margin-top: 40px;
-    border-radius: 2em;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -103,9 +109,28 @@
   }
   
   #normal{
+    background-color: cyan;
     flex-direction: row;
   }
   #reverse{
+    background-color: black;
+    color: white    ;
     flex-direction: row-reverse;
   }
-  
+
+  #anim-download{
+    margin-left: 100px;
+    background-color: orange;
+  }
+
+  #static-readmore  {
+    background-color: white;
+    color: black;
+    border: none !important;
+  }
+
+  #static-download {
+    background-color: black;
+    color: white;
+    border: none !important;
+  }
