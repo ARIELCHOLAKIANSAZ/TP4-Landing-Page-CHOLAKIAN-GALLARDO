@@ -12,9 +12,17 @@
     margin-left: 40px;
     margin-right: 40px;
   }
+
+  h2, p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
   
+  h3, a{
+    font-family: 'Lithos Pro';
+  }
+
   header{
-    background-image: url(assets/markiplier-burning-markiplier.gif);
+    background-image: url(assets/top-background.png);
     background-size: cover;
     background-position: center center;
     color: white;
@@ -67,7 +75,7 @@
   }
   
   main{
-    height: 130vh;
+    height: 200vh;
     width: auto;
   }
   
@@ -109,15 +117,22 @@
   }
   
   #normal{
-    background-color: cyan;
+    background-color: black;
+    background-image: url(assets/bottom-background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right center;
     flex-direction: row;
   }
   #reverse{
     background-color: black;
+    background-image: url(assets/middle-background.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left center;
     color: white    ;
     flex-direction: row-reverse;
   }
-
   #anim-download{
     margin-left: 100px;
     background-color: orange;
