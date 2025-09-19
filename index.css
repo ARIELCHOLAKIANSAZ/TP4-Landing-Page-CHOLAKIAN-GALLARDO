@@ -37,7 +37,7 @@ header{
 
 #text{
   animation-name: enter-left;
-  animation-duration: .5s;
+  animation-duration: 1s;
 }
 
 #logoslogan{
@@ -75,7 +75,7 @@ img{
 #image{
   align-items: end;
   animation-name: enter-right;
-  animation-duration: .5s;
+  animation-duration: 1s;
 }
 
 #tromprun{
@@ -94,6 +94,7 @@ main h3{
 
 main p{
   font-size: 150%;
+  text-align: center;
 }
 
 main .info{
@@ -106,6 +107,7 @@ main .info{
 }
 
 main .info .info-sec{
+  justify-content: center;
   align-items: center;
 }
 
@@ -143,14 +145,17 @@ main .info .info-sec{
   flex-direction: row-reverse;
 }
 #anim-download{
+  color: white;
   height: 75px;
   width: 300px;
   box-shadow: 0 0 2.5px 5px #ffee00,
   0 0 17.5px 17.5px #ffa600,
   0 0 25px 30px #ff0000;
+  border-radius: 2em;
+  outline-color: darkred;
   margin-bottom: 75px;
   margin-left: 125px;
-  background-color: orange;
+  background-color: brown;
   transition-property: all;
   transition-duration: .5s;
   animation-name: flames;
@@ -159,6 +164,7 @@ main .info .info-sec{
 }
 
 #anim-download:hover{
+  outline-color: black;
   box-shadow: 0 0 0px 0px #ffee00,
   0 0 0px 0px #ffa600,
   0 0 0px 0px #ff0000;
@@ -168,6 +174,13 @@ main .info .info-sec{
   transition-property: all;
   transition-duration: .5s;
   background-color: #0095FF;
+}
+
+.link-button:hover{
+  height: 80px;
+  width: 305px;
+  transition-property: all;
+  transition-duration: .5s;
 }
 
 #static-readmore  {
